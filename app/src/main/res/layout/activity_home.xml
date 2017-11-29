@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.nyletech.nyleride.HomeActivity" >
+
+    <GridLayout
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#003895"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+            
+            <ImageView android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/nyletech_logo_white"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"/>
+            
+        </GridLayout>
+        
+        <View
+            android:id="@+id/line"
+            android:layout_below="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#9b8d84" />
+        
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/line"
+            android:columnCount="1" >
+
+            <fragment
+                android:id="@+id/homemap"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/sethome"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="right|bottom"
+                android:layout_row="0"
+                android:background="@drawable/homeset" />
+            
+            <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_row="0"
+            android:columnCount="1" >
+
+            	<ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            	<ImageView
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/homepin" />
+
+        	</RelativeLayout>
+
+
+        </GridLayout>
+
+</RelativeLayout>

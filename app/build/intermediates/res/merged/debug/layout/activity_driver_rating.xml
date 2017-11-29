@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.nyletech.nyleride.DriverRatingActivity" >
+
+    <GridLayout
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#003895"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+            
+            <ImageView android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/nyletech_logo_white"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"/>
+            
+            <ImageView android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"/>
+            
+        </GridLayout>
+        
+        <View
+            android:id="@+id/line"
+            android:layout_below="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#9b8d84" />
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/line"
+            android:columnCount="1" >
+            
+            <GridLayout
+                	android:id="@+id/heading"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="10dp"
+        			android:layout_marginRight="10dp"
+        			android:background="#80e5e5e5"
+        			android:padding="10dp"
+        			android:layout_row="0"
+    				android:layout_column="0"
+        			android:layout_marginTop="5dp"
+        			android:gravity="center"
+        			android:layout_gravity="center|top" >
+        
+    				<TextView
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_column="0"
+        				android:layout_row="0"
+        				android:text="Rate the Trip"
+        				android:textSize="20sp"
+        				android:textStyle="bold"
+        				android:textColor="#67356d"
+        				android:gravity="center"
+        				android:layout_gravity="center" />
+    			</GridLayout>
+            
+            <ScrollView
+                android:id="@+id/ratescroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/heading"
+                android:layout_gravity="fill_vertical" >
+                
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="1"
+                    android:orientation="vertical"
+                    android:clickable="true" 
+    				android:focusableInTouchMode="true"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0dp"
+                        android:padding="5dp"
+                        android:text="Vehicle Condition"
+                        android:textColor="#012240"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    
+                    <RatingBar
+        				android:id="@+id/vcondition"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:numStars="5"
+        				android:stepSize="1.0" />
+
+                    <View
+                        android:layout_height="2dip"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#436aab" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0dp"
+                        android:padding="5dp"
+                        android:text="Driver Concern"
+                        android:textColor="#012240"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    
+                    <RatingBar
+        				android:id="@+id/dconcern"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:numStars="5"
+        				android:stepSize="1.0" />
+
+                    <View
+                        android:layout_height="2dip"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#436aab" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0dp"
+                        android:padding="5dp"
+                        android:text="Routing Concern"
+                        android:textColor="#012240"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    
+                    <RatingBar
+        				android:id="@+id/rconcern"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:numStars="5"
+        				android:stepSize="1.0" />
+
+                    <View
+                        android:layout_height="2dip"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#436aab" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0dp"
+                        android:padding="5dp"
+                        android:text="Other Issues"
+                        android:textColor="#012240"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/oissues"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:maxLength="255" >
+                    </EditText>
+
+                    <View
+                        android:layout_height="2dip"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#436aab" />
+
+                    <Button
+                        android:id="@+id/submit"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="#000000"
+                        android:padding="5dp"
+                        android:text="Submit"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                </GridLayout>
+                
+            </ScrollView>
+
+        </RelativeLayout>
+
+</RelativeLayout>

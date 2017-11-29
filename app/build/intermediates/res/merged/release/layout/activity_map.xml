@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.nyletech.nyleride.MapActivity" >
+    
+    <GridLayout
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#003895"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+            
+            <ImageView android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/nyletech_logo_white"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"/>
+            
+        </GridLayout>
+        
+        <View
+            android:id="@+id/line"
+            android:layout_below="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#9b8d84" />
+        
+        
+        
+        <GridLayout
+            android:id="@+id/dt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line" >
+            
+            <TextView 
+                android:id="@+id/dis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance:"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time:"
+                android:textColor="#000000"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            
+        </GridLayout>
+        
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/dt"
+            android:columnCount="1" >
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/panic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_column="0"
+                android:layout_gravity="right|bottom"
+                android:layout_row="0"
+                android:background="@drawable/panic" />
+
+        </GridLayout>
+
+</RelativeLayout>

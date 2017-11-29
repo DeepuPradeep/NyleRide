@@ -1,0 +1,15 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingBottom="3dp"
+    android:layout_height="wrap_content">
+ 
+ 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#003895"
+        android:src="@drawable/nyletech_logo_white"/>
+ 
+ 
+</LinearLayout>

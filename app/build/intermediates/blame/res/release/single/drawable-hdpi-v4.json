@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\counter_bg.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\drawable-hdpi\\counter_bg.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\list_item_bg_normal.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\drawable-hdpi\\list_item_bg_normal.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\list_item_bg_pressed.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\drawable-hdpi\\list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\buttonstyle.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\drawable-hdpi\\buttonstyle.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\list_selector.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\drawable-hdpi\\list_selector.xml"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\map.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\menu\\map.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\driver_rating.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\menu\\driver_rating.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\emp_check.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\menu\\emp_check.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\password.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\menu\\password.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\otp.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\menu\\otp.xml"
+    },
+    {
+        "merged": "C:\\Android\\StudioProjects\\NyleRide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\trip_sheet.xml",
+        "source": "C:\\Android\\StudioProjects\\NyleRide\\app\\src\\main\\res\\menu\\trip_sheet.xml"
+    }
+]
